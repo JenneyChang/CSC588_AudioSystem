@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{0b776af2-bfcb-4635-9387-79853b59c5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{e017e9c6-ff0c-4c2a-ab60-a6a521c94eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libs">
+      <UniqueIdentifier>{5d91065a-6981-4ee2-816c-b27bc40a5846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound">
+      <UniqueIdentifier>{69e59f58-5cf4-4a64-bb09-709de348014c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands">
+      <UniqueIdentifier>{0ed92e11-cfd3-4d6c-8c81-ade9acf0e441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Handles">
+      <UniqueIdentifier>{6fdab8b0-5e7f-4cdd-b27c-ab3aad93cadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Callbacks">
+      <UniqueIdentifier>{c539964d-eabd-4c72-9ca3-f3a28f963fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Threads">
+      <UniqueIdentifier>{75c07b44-d91b-44ba-97c1-003ce6669504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Utility">
+      <UniqueIdentifier>{c866c6f8-d41d-4409-8f27-ca3cdbab6701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Voice">
+      <UniqueIdentifier>{3cb04290-61d9-4afc-a62a-cbb0c53e060e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Wave">
+      <UniqueIdentifier>{0df2161c-8acb-4cd2-adf8-df7ff809a46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{bca94027-c747-42fe-8ed9-fa5ece085a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Sound">
+      <UniqueIdentifier>{b14737ea-f91c-41da-9dc6-cba7420a5f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Playlist">
+      <UniqueIdentifier>{8c2495b9-95aa-43a1-aa79-17c86dee3cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\ASound">
+      <UniqueIdentifier>{13b1e2c4-e96d-47e9-8139-a1f80b8eaf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\XAudio2">
+      <UniqueIdentifier>{76bb214e-faf1-4fa2-a90d-207b0920a502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands\Playlist">
+      <UniqueIdentifier>{5e9916fa-7bb4-4c28-b37d-7444973bb50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Queues">
+      <UniqueIdentifier>{820bead5-b822-49b0-a94c-f7d91db6dbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Queues\CircularQueue">
+      <UniqueIdentifier>{d9910b5e-59ef-44fb-828a-a8370df4dfb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands\Wave">
+      <UniqueIdentifier>{4da5aac6-7f8c-4396-a236-5352bffaccab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands\ASound">
+      <UniqueIdentifier>{08f4d3e3-5cd5-4c99-bfdb-3fd6152cafbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{58477cd9-3dbf-4cc9-b74c-fb2e18a66042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands\Sound">
+      <UniqueIdentifier>{7524927c-000d-4909-a56c-a1d3fad6aeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Demo">
+      <UniqueIdentifier>{14508142-b3d3-46ed-847a-5866e57b2520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands\File Callbacks">
+      <UniqueIdentifier>{179ef9d4-f877-4790-ad34-8cc84dc2fa0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\Commands\Voice">
+      <UniqueIdentifier>{311c694e-ee49-4621-a3ac-ed1f565fda5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoFiles">
+      <UniqueIdentifier>{98a6aa45-469a-4b11-a5fd-590c5574a0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer">
+      <UniqueIdentifier>{d0213034-e720-43ee-a3ca-d4f37f351a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Mesh">
+      <UniqueIdentifier>{b148b327-4ff1-4a3f-879b-c87811defa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Texture">
+      <UniqueIdentifier>{18aaef0d-65f1-43a5-a69b-b1e40fd9d96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Renderer">
+      <UniqueIdentifier>{e7e1a2e2-926a-4565-bfd0-01c6605a3872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Shaders">
+      <UniqueIdentifier>{c783195b-b3a2-424e-bcfa-02281497dfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Shaders\graphic shaders">
+      <UniqueIdentifier>{4d119cc2-5572-4c52-a90c-48b56dcef108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\GameObj">
+      <UniqueIdentifier>{40f464a7-beb5-4b87-846d-a5e6d9180595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\GameObj\GameObj 3D">
+      <UniqueIdentifier>{bbbb1155-6701-4642-9d36-a11b8e78a632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\GraphicsObj">
+      <UniqueIdentifier>{70d9504d-7632-44e6-b260-b5142bee8d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\GraphicsObj\GraphicsObj 3D">
+      <UniqueIdentifier>{e4baa1d9-77d4-43c1-87fb-bff266497005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Camera">
+      <UniqueIdentifier>{bdbd487f-0ae8-47c1-b343-479e2ea86884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Camera\2D">
+      <UniqueIdentifier>{fba70c7c-8576-48d2-96e7-669b49dc90da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Camera\3D">
+      <UniqueIdentifier>{237bcb9b-1609-4ebb-b13f-76c982b105df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="..\..\Shaders\texture.fs">
+      <Filter>src\Renderer\Shaders\graphic shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\texture.vs">
+      <Filter>src\Renderer\Shaders\graphic shaders</Filter>
+    </None>
+    <None Include="..\..\ProtoFiles\mesh_proto.proto">
+      <Filter>ProtoFiles</Filter>
+    </None>
+    <None Include="..\..\ProtoFiles\texture_proto.proto">
+      <Filter>ProtoFiles</Filter>
+    </None>
+    <None Include="..\..\ProtoFiles\vbo_proto.proto">
+      <Filter>ProtoFiles</Filter>
+    </None>
+    <None Include="..\..\ProtoFiles\vec3_proto.proto">
+      <Filter>ProtoFiles</Filter>
+    </None>
+    <None Include="..\..\ProtoFiles\vec4_proto.proto">
+      <Filter>ProtoFiles</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="..\..\Shaders\nullRender.fs">
+      <Filter>src\Renderer\Shaders\graphic shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\nullRender.vs">
+      <Filter>src\Renderer\Shaders\graphic shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Engine.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameMan.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>src\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Mesh.h">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\MeshNull.h">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\MeshNode.h">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\MeshNodeMan.h">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\ProtoMesh.h">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture.h">
+      <Filter>src\Renderer\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\TextureMan.h">
+      <Filter>src\Renderer\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObj\ShaderObj.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObj\ShaderGraphics.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObj\ShaderMan.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shaders\ShaderLayout.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObj\Material.h">
+      <Filter>src\Renderer\GraphicsObj</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObj\GraphicsObj.h">
+      <Filter>src\Renderer\GraphicsObj</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\GameObj.h">
+      <Filter>src\Renderer\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\GameObj_Null.h">
+      <Filter>src\Renderer\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\GameObjMan.h">
+      <Filter>src\Renderer\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObj\ShaderNode.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\mesh_proto.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\mesh_proto.pb.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\texture_proto.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\texture_proto.pb.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\vbo_proto.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\vbo_proto.pb.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\vec3_proto.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\vec3_proto.pb.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\vec4_proto.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProtoFiles\vec4_proto.pb.h">
+      <Filter>ProtoFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Translate.h">
+      <Filter>src\Renderer\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\GameObj_Rigid.h">
+      <Filter>src\Renderer\GameObj\GameObj 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\GameObj_Static.h">
+      <Filter>src\Renderer\GameObj\GameObj 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObj\GraphicsObj3D.h">
+      <Filter>src\Renderer\GraphicsObj\GraphicsObj 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObj\GraphicsObj_Texture.h">
+      <Filter>src\Renderer\GraphicsObj\GraphicsObj 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\GameObj3D.h">
+      <Filter>src\Renderer\GameObj\GameObj 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObj\GraphicsObj_Null3D.h">
+      <Filter>src\Renderer\GraphicsObj\GraphicsObj 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera2D.h">
+      <Filter>src\Renderer\Camera\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera2DMan.h">
+      <Filter>src\Renderer\Camera\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera3D.h">
+      <Filter>src\Renderer\Camera\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera3DMan.h">
+      <Filter>src\Renderer\Camera\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>src\Renderer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Command.h">
+      <Filter>src\Sound\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Handle.h">
+      <Filter>src\Sound\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\HandleManager.h">
+      <Filter>src\Sound\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\VoiceCallback.h">
+      <Filter>src\Sound\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\AudioThread.h">
+      <Filter>src\Sound\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\StringThis.h">
+      <Filter>src\Sound\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\DebugUtility.h">
+      <Filter>src\Sound\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Voice.h">
+      <Filter>src\Sound\Voice</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\RIFF_PARSER.h">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\VoiceManager.h">
+      <Filter>src\Sound\Voice</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Wave.h">
+      <Filter>src\Sound\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\WaveManager.h">
+      <Filter>src\Sound\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Sound.h">
+      <Filter>src\Sound\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Playlist.h">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PlaylistManager.h">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundManager.h">
+      <Filter>src\Sound\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\AudioEngine.h">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ASound.h">
+      <Filter>src\Sound\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ASoundManager.h">
+      <Filter>src\Sound\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PlaylistManRef.h">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\FileThread.h">
+      <Filter>src\Sound\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\AuxThread.h">
+      <Filter>src\Sound\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundCallback.h">
+      <Filter>src\Sound\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\CircularIndex.h">
+      <Filter>src\Sound\Queues\CircularQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\CircularQueue.h">
+      <Filter>src\Sound\Queues\CircularQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\QueueManager.h">
+      <Filter>src\Sound\Queues</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\CreateWave.h">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\LoadWaveStart.h">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\LoadWaveEnd.h">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\InternalFileCB.h">
+      <Filter>src\Sound\Commands\File Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\CreateASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PlayASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\UpdateWaveTable.h">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputMan.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Keyboard.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Mouse.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PlayTrack.h">
+      <Filter>src\Sound\Commands\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyPress.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\TrackCmd.h">
+      <Filter>src\Sound\Commands\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObj\SSBO.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\LoadPlaylistCmd.h">
+      <Filter>src\Sound\Commands\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PauseASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\StopASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PriorityKill.h">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundStart.h">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundStop.h">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundEnd.h">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ASoundVolume.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PanASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PitchASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\UserFileCallback.h">
+      <Filter>src\Sound\Commands\File Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\FileCallback.h">
+      <Filter>src\Sound\Commands\File Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Demo1.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\PlaylistRef.h">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\CreateWaveAsync.h">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\UserSoundCallback.h">
+      <Filter>src\Sound\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ReplayASound.h">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\StreamEnd.h">
+      <Filter>src\Sound\Commands\Voice</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\DestroyWave.h">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundTable.h">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\WaveTable.h">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Demo2.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\DemoUtil.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Demo3.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\LeftRightPan.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\RightLeftPan.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\LeftRightVol.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\RightLeftVol.h">
+      <Filter>src\Sound\Demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Engine.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameMan.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>src\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Mesh.cpp">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\MeshNull.cpp">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\MeshNode.cpp">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\MeshNodeMan.cpp">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\Texture.cpp">
+      <Filter>src\Renderer\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureMan.cpp">
+      <Filter>src\Renderer\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObj\ShaderObj.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObj\ShaderGraphics.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObj\ShaderMan.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObj\GraphicsObj.cpp">
+      <Filter>src\Renderer\GraphicsObj</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\GameObj.cpp">
+      <Filter>src\Renderer\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\GameObj_Null.cpp">
+      <Filter>src\Renderer\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\GameObjMan.cpp">
+      <Filter>src\Renderer\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObj\ShaderNode.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\ProtoMesh.cpp">
+      <Filter>src\Renderer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\mesh_proto.cpp">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\mesh_proto.pb.cc">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\texture_proto.cpp">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\texture_proto.pb.cc">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\vbo_proto.cpp">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\vbo_proto.pb.cc">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\vec3_proto.cpp">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\vec3_proto.pb.cc">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\vec4_proto.cpp">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProtoFiles\vec4_proto.pb.cc">
+      <Filter>ProtoFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\Translate.cpp">
+      <Filter>src\Renderer\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\GameObj_Rigid.cpp">
+      <Filter>src\Renderer\GameObj\GameObj 3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObj\GraphicsObj3D.cpp">
+      <Filter>src\Renderer\GraphicsObj\GraphicsObj 3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObj\GraphicsObj_Texture.cpp">
+      <Filter>src\Renderer\GraphicsObj\GraphicsObj 3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\GameObj3D.cpp">
+      <Filter>src\Renderer\GameObj\GameObj 3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObj\GraphicsObj_Null3D.cpp">
+      <Filter>src\Renderer\GraphicsObj\GraphicsObj 3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\main.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera2D.cpp">
+      <Filter>src\Renderer\Camera\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera2DMan.cpp">
+      <Filter>src\Renderer\Camera\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera3D.cpp">
+      <Filter>src\Renderer\Camera\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera3DMan.cpp">
+      <Filter>src\Renderer\Camera\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>src\Renderer\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\VoiceCallback.cpp">
+      <Filter>src\Sound\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\AudioThread.cpp">
+      <Filter>src\Sound\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\StringThis.cpp">
+      <Filter>src\Sound\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Voice.cpp">
+      <Filter>src\Sound\Voice</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\RIFF_PARSER.cpp">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Wave.cpp">
+      <Filter>src\Sound\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\WaveManager.cpp">
+      <Filter>src\Sound\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\VoiceManager.cpp">
+      <Filter>src\Sound\Voice</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Handle.cpp">
+      <Filter>src\Sound\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\HandleManager.cpp">
+      <Filter>src\Sound\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\AudioEngine.cpp">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundManager.cpp">
+      <Filter>src\Sound\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PlaylistManager.cpp">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Sound.cpp">
+      <Filter>src\Sound\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Lock.cpp">
+      <Filter>src\Sound\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Playlist.cpp">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\ASoundManager.cpp">
+      <Filter>src\Sound\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PlaylsitManRef.cpp">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\FileThread.cpp">
+      <Filter>src\Sound\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\CircularIndex.cpp">
+      <Filter>src\Sound\Queues\CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\CircularQueue.cpp">
+      <Filter>src\Sound\Queues\CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\QueueManager.cpp">
+      <Filter>src\Sound\Queues</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\AuxThread.cpp">
+      <Filter>src\Sound\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\CreateWave.cpp">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\LoadWaveStart.cpp">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\LoadWaveEnd.cpp">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\InternalFileCB.cpp">
+      <Filter>src\Sound\Commands\File Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\CreateASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\ASound.cpp">
+      <Filter>src\Sound\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PlayASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\UpdateWaveTable.cpp">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputMan.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Keyboard.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Mouse.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PlayTrack.cpp">
+      <Filter>src\Sound\Commands\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyPress.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObj\SSBO.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\LoadPlaylistCmd.cpp">
+      <Filter>src\Sound\Commands\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PauseASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PriorityKill.cpp">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundStart.cpp">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundStop.cpp">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundEnd.cpp">
+      <Filter>src\Sound\Commands\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\StopASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\ASoundVolume.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PanASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="PitchASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Demo1.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\PlaylistRef.cpp">
+      <Filter>src\Sound\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\UserFileCallback.cpp">
+      <Filter>src\Sound\Commands\File Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\CreateWaveAsync.cpp">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\UserSoundCallback.cpp">
+      <Filter>src\Sound\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\ReplayASound.cpp">
+      <Filter>src\Sound\Commands\ASound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\StreamEnd.cpp">
+      <Filter>src\Sound\Commands\Voice</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\TrackCmd.cpp">
+      <Filter>src\Sound\Commands\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\FileCallback.cpp">
+      <Filter>src\Sound\Commands\File Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\DestroyWave.cpp">
+      <Filter>src\Sound\Commands\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundTable.cpp">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\WaveTable.cpp">
+      <Filter>src\Sound\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundCallback.cpp">
+      <Filter>src\Sound\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Demo2.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\DemoUtil.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Demo3.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\LeftRightPan.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\RightLeftPan.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\LeftRightVol.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\RightLeftVol.cpp">
+      <Filter>src\Sound\Demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\ProtoBuff\libs\release\libprotobuf-lite.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\ProtoBuff\libs\debug\libprotobuf-lited.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\Math_3.0\lib\Math_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\PCSTree\lib\PCSTree_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\File\lib\File_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\GLFW\lib\GLFW_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\Manager\lib\Manager_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\Time\lib\Time_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+    <Library Include="..\..\SB7\lib\SB7_X86Debug.lib">
+      <Filter>_libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

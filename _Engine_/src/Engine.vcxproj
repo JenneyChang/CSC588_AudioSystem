@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ProtoFiles\mesh_proto.proto" />
+    <None Include="..\..\ProtoFiles\texture_proto.proto" />
+    <None Include="..\..\ProtoFiles\vbo_proto.proto" />
+    <None Include="..\..\ProtoFiles\vec3_proto.proto" />
+    <None Include="..\..\ProtoFiles\vec4_proto.proto" />
+    <None Include="..\..\Shaders\nullRender.fs" />
+    <None Include="..\..\Shaders\nullRender.vs" />
+    <None Include="..\..\Shaders\texture.fs">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\Shaders\texture.vs">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\Framework\__DO NOT MODIFY__" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Framework\Framework.h" />
+    <ClInclude Include="..\..\Framework\ProjectSettings.h" />
+    <ClInclude Include="..\..\Framework\ThreadFramework.h" />
+    <ClInclude Include="..\..\ProtoFiles\mesh_proto.h" />
+    <ClInclude Include="..\..\ProtoFiles\mesh_proto.pb.h" />
+    <ClInclude Include="..\..\ProtoFiles\texture_proto.h" />
+    <ClInclude Include="..\..\ProtoFiles\texture_proto.pb.h" />
+    <ClInclude Include="..\..\ProtoFiles\vbo_proto.h" />
+    <ClInclude Include="..\..\ProtoFiles\vbo_proto.pb.h" />
+    <ClInclude Include="..\..\ProtoFiles\vec3_proto.h" />
+    <ClInclude Include="..\..\ProtoFiles\vec3_proto.pb.h" />
+    <ClInclude Include="..\..\ProtoFiles\vec4_proto.h" />
+    <ClInclude Include="..\..\ProtoFiles\vec4_proto.pb.h" />
+    <ClInclude Include="..\..\Shaders\ShaderLayout.h" />
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Camera\Camera2D.h" />
+    <ClInclude Include="Camera\Camera2DMan.h" />
+    <ClInclude Include="Camera\Camera3D.h" />
+    <ClInclude Include="Camera\Camera3DMan.h" />
+    <ClInclude Include="GameObj\GameObj.h" />
+    <ClInclude Include="GameObj\GameObj3D.h" />
+    <ClInclude Include="GameObj\GameObjMan.h" />
+    <ClInclude Include="GameObj\GameObj_Null.h" />
+    <ClInclude Include="GameObj\GameObj_Rigid.h" />
+    <ClInclude Include="GameObj\GameObj_Static.h" />
+    <ClInclude Include="Game\Engine.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\GameMan.h" />
+    <ClInclude Include="GraphicsObj\GraphicsObj.h" />
+    <ClInclude Include="GraphicsObj\GraphicsObj3D.h" />
+    <ClInclude Include="GraphicsObj\GraphicsObj_Null3D.h" />
+    <ClInclude Include="GraphicsObj\GraphicsObj_Texture.h" />
+    <ClInclude Include="GraphicsObj\Material.h" />
+    <ClInclude Include="Input\InputMan.h" />
+    <ClInclude Include="Input\Keyboard.h" />
+    <ClInclude Include="Input\KeyPress.h" />
+    <ClInclude Include="Input\Mouse.h" />
+    <ClInclude Include="Mesh\Mesh.h" />
+    <ClInclude Include="Mesh\MeshNode.h" />
+    <ClInclude Include="Mesh\MeshNodeMan.h" />
+    <ClInclude Include="Mesh\MeshNull.h" />
+    <ClInclude Include="Mesh\ProtoMesh.h" />
+    <ClInclude Include="Renderer\Renderer.h" />
+    <ClInclude Include="ShaderObj\ShaderGraphics.h" />
+    <ClInclude Include="ShaderObj\ShaderMan.h" />
+    <ClInclude Include="ShaderObj\ShaderNode.h" />
+    <ClInclude Include="ShaderObj\ShaderObj.h" />
+    <ClInclude Include="ShaderObj\SSBO.h" />
+    <ClInclude Include="Sound\ASound.h" />
+    <ClInclude Include="Sound\ASoundManager.h" />
+    <ClInclude Include="Sound\ASoundVolume.h" />
+    <ClInclude Include="Sound\AudioThread.h" />
+    <ClInclude Include="Sound\AuxThread.h" />
+    <ClInclude Include="Sound\CircularIndex.h" />
+    <ClInclude Include="Sound\CircularQueue.h" />
+    <ClInclude Include="Sound\Command.h" />
+    <ClInclude Include="Sound\CreateASound.h" />
+    <ClInclude Include="Sound\CreateWave.h" />
+    <ClInclude Include="Sound\CreateWaveAsync.h" />
+    <ClInclude Include="Sound\DebugUtility.h" />
+    <ClInclude Include="Sound\Demo1.h" />
+    <ClInclude Include="Sound\Demo2.h" />
+    <ClInclude Include="Sound\Demo3.h" />
+    <ClInclude Include="Sound\DemoUtil.h" />
+    <ClInclude Include="Sound\DestroyWave.h" />
+    <ClInclude Include="Sound\FileThread.h" />
+    <ClInclude Include="Sound\Handle.h" />
+    <ClInclude Include="Sound\HandleManager.h" />
+    <ClInclude Include="Sound\LeftRightPan.h" />
+    <ClInclude Include="Sound\LeftRightVol.h" />
+    <ClInclude Include="Sound\LoadPlaylistCmd.h" />
+    <ClInclude Include="Sound\LoadWaveEnd.h" />
+    <ClInclude Include="Sound\LoadWaveStart.h" />
+    <ClInclude Include="Sound\PanASound.h" />
+    <ClInclude Include="Sound\PauseASound.h" />
+    <ClInclude Include="Sound\PitchASound.h" />
+    <ClInclude Include="Sound\PlayASound.h" />
+    <ClInclude Include="Sound\Playlist.h" />
+    <ClInclude Include="Sound\PlaylistManager.h" />
+    <ClInclude Include="Sound\PlaylistManRef.h" />
+    <ClInclude Include="Sound\PlaylistRef.h" />
+    <ClInclude Include="Sound\PriorityKill.h" />
+    <ClInclude Include="Sound\ReplayASound.h" />
+    <ClInclude Include="Sound\RightLeftPan.h" />
+    <ClInclude Include="Sound\RightLeftVol.h" />
+    <ClInclude Include="Sound\SoundEnd.h" />
+    <ClInclude Include="Sound\StopASound.h" />
+    <ClInclude Include="Sound\TrackCmd.h" />
+    <ClInclude Include="Sound\FileCallback.h" />
+    <ClInclude Include="Sound\UserSoundCallback.h" />
+    <ClInclude Include="Sound\SoundStart.h" />
+    <ClInclude Include="Sound\SoundStop.h" />
+    <ClInclude Include="Sound\SoundTable.h" />
+    <ClInclude Include="Sound\QueueManager.h" />
+    <ClInclude Include="Sound\RIFF_PARSER.h" />
+    <ClInclude Include="Sound\Sound.h" />
+    <ClInclude Include="Sound\AudioEngine.h" />
+    <ClInclude Include="Sound\SoundManager.h" />
+    <ClInclude Include="Sound\PlayTrack.h" />
+    <ClInclude Include="Sound\StreamEnd.h" />
+    <ClInclude Include="Sound\StringThis.h" />
+    <ClInclude Include="Sound\InternalFileCB.h" />
+    <ClInclude Include="Sound\UpdateWaveTable.h" />
+    <ClInclude Include="Sound\SoundCallback.h" />
+    <ClInclude Include="Sound\UserFileCallback.h" />
+    <ClInclude Include="Sound\Voice.h" />
+    <ClInclude Include="Sound\VoiceCallback.h" />
+    <ClInclude Include="Sound\VoiceManager.h" />
+    <ClInclude Include="Sound\Wave.h" />
+    <ClInclude Include="Sound\WaveManager.h" />
+    <ClInclude Include="Sound\WaveTable.h" />
+    <ClInclude Include="Texture\Texture.h" />
+    <ClInclude Include="Texture\TextureMan.h" />
+    <ClInclude Include="Texture\Translate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ProtoFiles\mesh_proto.cpp" />
+    <ClCompile Include="..\..\ProtoFiles\mesh_proto.pb.cc" />
+    <ClCompile Include="..\..\ProtoFiles\texture_proto.cpp" />
+    <ClCompile Include="..\..\ProtoFiles\texture_proto.pb.cc" />
+    <ClCompile Include="..\..\ProtoFiles\vbo_proto.cpp" />
+    <ClCompile Include="..\..\ProtoFiles\vbo_proto.pb.cc" />
+    <ClCompile Include="..\..\ProtoFiles\vec3_proto.cpp" />
+    <ClCompile Include="..\..\ProtoFiles\vec3_proto.pb.cc" />
+    <ClCompile Include="..\..\ProtoFiles\vec4_proto.cpp" />
+    <ClCompile Include="..\..\ProtoFiles\vec4_proto.pb.cc" />
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Camera\Camera2D.cpp" />
+    <ClCompile Include="Camera\Camera2DMan.cpp" />
+    <ClCompile Include="Camera\Camera3D.cpp" />
+    <ClCompile Include="Camera\Camera3DMan.cpp" />
+    <ClCompile Include="GameObj\GameObj.cpp" />
+    <ClCompile Include="GameObj\GameObj3D.cpp" />
+    <ClCompile Include="GameObj\GameObjMan.cpp" />
+    <ClCompile Include="GameObj\GameObj_Null.cpp" />
+    <ClCompile Include="GameObj\GameObj_Rigid.cpp" />
+    <ClCompile Include="Game\Engine.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\GameMan.cpp" />
+    <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="GraphicsObj\GraphicsObj.cpp" />
+    <ClCompile Include="GraphicsObj\GraphicsObj3D.cpp" />
+    <ClCompile Include="GraphicsObj\GraphicsObj_Null3D.cpp" />
+    <ClCompile Include="GraphicsObj\GraphicsObj_Texture.cpp" />
+    <ClCompile Include="Input\InputMan.cpp" />
+    <ClCompile Include="Input\Keyboard.cpp" />
+    <ClCompile Include="Input\KeyPress.cpp" />
+    <ClCompile Include="Input\Mouse.cpp" />
+    <ClCompile Include="Mesh\Mesh.cpp" />
+    <ClCompile Include="Mesh\MeshNode.cpp" />
+    <ClCompile Include="Mesh\MeshNodeMan.cpp" />
+    <ClCompile Include="Mesh\MeshNull.cpp" />
+    <ClCompile Include="Mesh\ProtoMesh.cpp" />
+    <ClCompile Include="PitchASound.cpp" />
+    <ClCompile Include="Renderer\Renderer.cpp" />
+    <ClCompile Include="ShaderObj\ShaderGraphics.cpp" />
+    <ClCompile Include="ShaderObj\ShaderMan.cpp" />
+    <ClCompile Include="ShaderObj\ShaderNode.cpp" />
+    <ClCompile Include="ShaderObj\ShaderObj.cpp" />
+    <ClCompile Include="ShaderObj\SSBO.cpp" />
+    <ClCompile Include="Sound\ASound.cpp" />
+    <ClCompile Include="Sound\ASoundManager.cpp" />
+    <ClCompile Include="Sound\ASoundVolume.cpp" />
+    <ClCompile Include="Sound\AudioThread.cpp" />
+    <ClCompile Include="Sound\AuxThread.cpp" />
+    <ClCompile Include="Sound\CircularIndex.cpp" />
+    <ClCompile Include="Sound\CircularQueue.cpp" />
+    <ClCompile Include="Sound\CreateASound.cpp" />
+    <ClCompile Include="Sound\CreateWave.cpp" />
+    <ClCompile Include="Sound\CreateWaveAsync.cpp" />
+    <ClCompile Include="Sound\Demo1.cpp" />
+    <ClCompile Include="Sound\Demo2.cpp" />
+    <ClCompile Include="Sound\Demo3.cpp" />
+    <ClCompile Include="Sound\DemoUtil.cpp" />
+    <ClCompile Include="Sound\DestroyWave.cpp" />
+    <ClCompile Include="Sound\FileCallback.cpp" />
+    <ClCompile Include="Sound\InternalFileCB.cpp" />
+    <ClCompile Include="Sound\FileThread.cpp" />
+    <ClCompile Include="Sound\Handle.cpp" />
+    <ClCompile Include="Sound\HandleManager.cpp" />
+    <ClCompile Include="Sound\LeftRightPan.cpp" />
+    <ClCompile Include="Sound\LeftRightVol.cpp" />
+    <ClCompile Include="Sound\LoadPlaylistCmd.cpp" />
+    <ClCompile Include="Sound\LoadWaveEnd.cpp" />
+    <ClCompile Include="Sound\LoadWaveStart.cpp" />
+    <ClCompile Include="Sound\Lock.cpp" />
+    <ClCompile Include="Sound\PauseASound.cpp" />
+    <ClCompile Include="Sound\PlayASound.cpp" />
+    <ClCompile Include="Sound\Playlist.cpp" />
+    <ClCompile Include="Sound\PlaylistManager.cpp" />
+    <ClCompile Include="Sound\PlaylistRef.cpp" />
+    <ClCompile Include="Sound\PlaylsitManRef.cpp" />
+    <ClCompile Include="Sound\PlayTrack.cpp" />
+    <ClCompile Include="Sound\PriorityKill.cpp" />
+    <ClCompile Include="Sound\QueueManager.cpp" />
+    <ClCompile Include="Sound\ReplayASound.cpp" />
+    <ClCompile Include="Sound\RIFF_PARSER.cpp" />
+    <ClCompile Include="Sound\AudioEngine.cpp" />
+    <ClCompile Include="Sound\RightLeftPan.cpp" />
+    <ClCompile Include="Sound\RightLeftVol.cpp" />
+    <ClCompile Include="Sound\Sound.cpp" />
+    <ClCompile Include="Sound\SoundCallback.cpp" />
+    <ClCompile Include="Sound\SoundEnd.cpp" />
+    <ClCompile Include="Sound\SoundManager.cpp" />
+    <ClCompile Include="Sound\SoundStart.cpp" />
+    <ClCompile Include="Sound\SoundStop.cpp" />
+    <ClCompile Include="Sound\SoundTable.cpp" />
+    <ClCompile Include="Sound\PanASound.cpp" />
+    <ClCompile Include="Sound\StopASound.cpp" />
+    <ClCompile Include="Sound\StreamEnd.cpp" />
+    <ClCompile Include="Sound\StringThis.cpp" />
+    <ClCompile Include="Sound\TrackCmd.cpp" />
+    <ClCompile Include="Sound\UpdateWaveTable.cpp" />
+    <ClCompile Include="Sound\UserFileCallback.cpp" />
+    <ClCompile Include="Sound\UserSoundCallback.cpp" />
+    <ClCompile Include="Sound\Voice.cpp" />
+    <ClCompile Include="Sound\VoiceCallback.cpp" />
+    <ClCompile Include="Sound\VoiceManager.cpp" />
+    <ClCompile Include="Sound\Wave.cpp" />
+    <ClCompile Include="Sound\WaveManager.cpp" />
+    <ClCompile Include="Sound\WaveTable.cpp" />
+    <ClCompile Include="Texture\Texture.cpp" />
+    <ClCompile Include="Texture\TextureMan.cpp" />
+    <ClCompile Include="Texture\Translate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\File\lib\File_X86Debug.lib" />
+    <Library Include="..\..\GLFW\lib\GLFW_X86Debug.lib" />
+    <Library Include="..\..\Manager\lib\Manager_X86Debug.lib" />
+    <Library Include="..\..\Math_3.0\lib\Math_X86Debug.lib" />
+    <Library Include="..\..\PCSTree\lib\PCSTree_X86Debug.lib" />
+    <Library Include="..\..\ProtoBuff\libs\debug\libprotobuf-lited.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\ProtoBuff\libs\release\libprotobuf-lite.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\SB7\lib\SB7_X86Debug.lib" />
+    <Library Include="..\..\Time\lib\Time_X86Debug.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F378881E-1BCC-4A2A-8E59-85BCBC1B6039}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MathEngineTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="..\..\ProtoBuff\ProtoBuff.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)Debug</TargetName>
+    <GenerateManifest>false</GenerateManifest>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)Release</TargetName>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_GLFW_WIN32;_GLFW_USE_CONFIG_H;BOOSTER;WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";SOLUTION_DIR=R"($(SolutionDir))";TOOLS_VERSION=R"($(VCToolsVersion))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\Framework;$(SolutionDir)..\GLFW\include;$(SolutionDir)..\SB7\include;$(SolutionDir)..\Math_3.0\include;$(SolutionDir)..\File\include;$(SolutionDir)..\PCSTree\lib;$(SolutionDir)..\PCSTree\include;$(SolutionDir)..\Manager\include;$(SolutionDIr)..\Time\include;$(SolutionDir)..\ProtoBuff;$(SolutionDir)...\ProtoBuff\src;$(SolutionDir)..\ProtoFiles;$(SolutionDir)..\Shaders;$(SolutionDir)Test;$(ProjectDir)Input;$(ProjectDir)Game;$(ProjectDir)Camera;$(ProjectDir)Mesh;$(ProjectDir)Texture;$(ProjectDir)ShaderObj;$(ProjectDir)GameObj;$(ProjectDir)GraphicsObj;$(ProjectDir)Renderer;$(ProjectDir)Sound</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>Framework.h;ThreadFramework.h</ForcedIncludeFiles>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_GLFW_WIN32;_GLFW_USE_CONFIG_H;BOOSTER;WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";SOLUTION_DIR=R"($(SolutionDir))";TOOLS_VERSION=R"($(VCToolsVersion))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\Framework;$(SolutionDir)..\GLFW\include;$(SolutionDir)..\SB7\include;$(SolutionDir)..\Math_3.0\include;$(SolutionDir)..\File\include;$(SolutionDir)..\PCSTree\lib;$(SolutionDir)..\PCSTree\include;$(SolutionDir)..\Manager\include;$(SolutionDIr)..\Time\include;$(SolutionDir)..\ProtoBuff;$(SolutionDir)...\ProtoBuff\src;$(SolutionDir)..\ProtoFiles;$(SolutionDir)..\Shaders;$(SolutionDir)Test;$(ProjectDir)Input;$(ProjectDir)Game;$(ProjectDir)Camera;$(ProjectDir)Mesh;$(ProjectDir)Texture;$(ProjectDir)ShaderObj;$(ProjectDir)GameObj;$(ProjectDir)Image;$(ProjectDir)Anim;$(ProjectDir)GraphicsObj;$(ProjectDir)Font;$(ProjectDir)Sprite;$(ProjectDir)TimeEvents</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>Framework.h</ForcedIncludeFiles>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <Text Update="C:\Users\jenny\Documents\Projects\SoundEngine\_Engine_WIP\Shaders\mixer.cs.glsl">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+</Project>
