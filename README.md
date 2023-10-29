@@ -11,6 +11,8 @@ A multithreaded audio system that wraps around existing XAudio2 API using the Ac
 * Press Key 3
   - Starts Demo 3
   - Shows Pan and Volume can be smoothly adjusted over time
+* Esc Key
+  - Exit from program (note: doesn't cleanly exit from demo) 
 ## Table of Contents
 * [Audio Engine](#audio-engine)
 * [Loading Resources](#loading-resources)
