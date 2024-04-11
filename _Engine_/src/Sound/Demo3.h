@@ -5,6 +5,6 @@
 namespace Demos
 {
 	//class Sound;
-	void Demo3(/*Sound* snd*/);
+	void Demo3();
 }
 #endif // !DEMO_3_H
