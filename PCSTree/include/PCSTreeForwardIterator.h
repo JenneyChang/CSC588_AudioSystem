@@ -16,8 +16,6 @@ namespace Azul
 		virtual PCSNode* CurrentItem() override;
 
 	private:
-		// YOU can store what you want... here
-		// these were my variables...
 		PCSNode* root;
 		PCSNode* current;
 	};
