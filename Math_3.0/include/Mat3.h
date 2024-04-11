@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// Copyright 2022, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------- 
-
 #ifndef ENGINE_MATH_MATRIX_3x3_H
 #define ENGINE_MATH_MATRIX_3x3_H
 
@@ -30,9 +26,6 @@ namespace Azul
 		};
 
 	public:
-
-		// Do your magic here
-
 		// Big 4
 		Mat3();
 		Mat3 &operator = (const Mat3 &A);
