@@ -8,8 +8,6 @@
 //#include "BoundingSphere.h"
 #include "Mesh.h"
 
-//using namespace Azul;
-
 namespace Azul
 {
 	class GameObj : public PCSNode
