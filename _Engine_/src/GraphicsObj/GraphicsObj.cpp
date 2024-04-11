@@ -10,9 +10,6 @@ GraphicsObj::GraphicsObj(Mesh* mesh, const ShaderObj* shaderobj)
 	: Material(), pMesh(mesh), poWorld(new Mat4(Mat4::Special::Identity)),
 	  pShaderObj(shaderobj)/*, poCurrSphere(new BoundingSphere())*/
 {
-	//check incoming
-	/*assert(mesh);
-	assert(shaderobj);*/
 
 	//check news
 	assert(this->poWorld);
