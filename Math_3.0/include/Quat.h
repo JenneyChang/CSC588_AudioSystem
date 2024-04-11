@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// Copyright 2022, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------- 
-
 #ifndef ENGINE_MATH_QUAT_H
 #define ENGINE_MATH_QUAT_H
 
@@ -139,7 +135,7 @@ namespace Azul
 
 		// Get
 
-			// Return the X component
+		// Return the X component
 		const float operator[](const x_enum value) const;
 
 		// Return the Y component
@@ -172,7 +168,7 @@ namespace Azul
 
 		// Magnitude
 
-			// magnitude 
+		// magnitude 
 		const float mag(void) const;
 
 		// magnitude Squared (Remember for Unit Quats, magSquared == 1.0f );
@@ -199,7 +195,7 @@ namespace Azul
 
 		// Inverse
 
-			// Inverse Quat in place
+		// Inverse Quat in place
 		Quat &inv(void);
 
 		// Return inverse Quat
