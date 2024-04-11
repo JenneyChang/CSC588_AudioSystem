@@ -24,23 +24,3 @@ void GraphicsObj_Null::Render()
 {
 	//does nothing
 }
-
-//void GraphicsObj_Null::SetState()
-//{ 
-//	//does nothing by default
-//}
-//
-//void GraphicsObj_Null::SetGPUData()
-//{ 
-//	//does nothing by default
-//}
-//
-//void GraphicsObj_Null::Draw()
-//{ 
-//	//does nothing by default
-//}
-//
-//void GraphicsObj_Null::ResetState()
-//{
-//	//does nothing by default
-//}
