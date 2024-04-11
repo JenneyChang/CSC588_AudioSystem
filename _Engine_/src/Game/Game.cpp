@@ -1,6 +1,3 @@
-//----------------------------------------------------------------------------
-// Copyright 2022, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------
 #include "Game.h"
 #include "InputMan.h"
 #include "KeyPress.h"
@@ -84,7 +81,7 @@ void Game::LoadContent()
 	AudioEngine::LoadWave(AudioEngine::Blocking::LOAD, Wave::ID::BEETHOVEN_LAENDLER, "..\\..\\Data\\Beethoven_Laendler.wav");
 
 	// Load Playlists (Loading Playlist Manager Reference)
-	// Note: assume playlist are loaded in statically...like a script...loaded as a Proto?
+	// Note: assume playlist are loaded in statically...like a script
 	AudioEngine::LoadPlaylist(PlaylistRef::ID::FIDDLE, Wave::ID::FIDDLE);
 	AudioEngine::LoadPlaylist(PlaylistRef::ID::BASSOON, Wave::ID::BASSOON);
 	AudioEngine::LoadPlaylist(PlaylistRef::ID::OBOE, Wave::ID::OBOE);
