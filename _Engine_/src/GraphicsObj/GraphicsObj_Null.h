@@ -16,11 +16,5 @@ public:
 
 	void Render() override;
 
-	/*void SetState() override;
-	void SetGPUData() override;
-	void Draw() override;
-	void ResetState() override;*/
-
-
 };
 #endif // !GRAPHICS_OBJ_NULL_H
