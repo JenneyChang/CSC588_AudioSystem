@@ -6,9 +6,11 @@
 class DLink : public Node
 {
 public:
-	DLink();
+	// disabled
 	DLink(const DLink&) = delete;
 	DLink& operator=(const DLink&) = delete;
+
+	DLink();	
 	virtual ~DLink() = default;
 
 	//mandatory overloads
