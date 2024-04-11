@@ -56,6 +56,4 @@ void AudioThread(std::atomic_bool& quitFlag)
 	PlaylistManager::Destroy();
 	VoiceManager::Destroy();
 	WaveManager::Destroy();
-
-	//AudioEngine::Destroy();
 }
